@@ -26,7 +26,7 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  metadataBase: new URL(SITE_URL || 'https://godrejbandrabayresidences.com'),
+  metadataBase: new URL(SITE_URL || 'https://godrejbandraseaviewapartments.com'),
   title: 'Godrej Bandra Bay Residences | 4 & 5 BHK Luxury Residences Bandra West Mumbai',
   description: 'Godrej Bandra Bay Residences at Bandra Reclamation, Bandra West, Mumbai by Godrej Properties offers limited-edition 4 & 5 BHK luxury residences with true panoramic sea views. Pre-Launch.',
   alternates: {
@@ -35,7 +35,7 @@ export const metadata = {
   openGraph: {
     title: 'Godrej Bandra Bay Residences | 4 & 5 BHK Luxury Residences Bandra West Mumbai',
     description: 'Godrej Bandra Bay Residences at Bandra Reclamation, Bandra West, Mumbai by Godrej Properties offers limited-edition 4 & 5 BHK luxury residences with true panoramic sea views. Pre-Launch.',
-    url: SITE_URL || 'https://godrejbandrabayresidences.com',
+    url: SITE_URL || 'https://godrejbandraseaviewapartments.com',
     siteName: 'Godrej Bandra Bay Residences',
     type: 'website',
   },

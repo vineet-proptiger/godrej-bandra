@@ -244,7 +244,7 @@ const AboutDeveloper = ({ setIsOpen }) => (
           <div style={{ padding: '24px 28px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <div>
               <p className='text-justify' style={{ color: '#555', fontFamily: F_SANS, lineHeight: 1.8, fontSize: '14px', margin: '0 0 20px' }}>
-                Godrej Properties brings the Godrej Group philosophy of innovation, sustainability, and excellence to the real estate industry. Each development combines a 127-year legacy of excellence and trust with cutting-edge design and technology, creating landmark addresses across India’s premier cities.
+                Godrej Properties brings the legacy and trust of the Godrej Group, established in 1897, to contemporary real estate development across India. Established in 1990, the company was the first real estate developer in India to receive ISO certification and today has a presence across 15+ cities, with landmark developments covering over 21.7 million sq. m. Its approach combines thoughtful design, innovation and sustainability, backed by 500+ awards and recognitions in recent years, including honours for residential development, ESG leadership and green building initiatives.
               </p>
             </div>
 

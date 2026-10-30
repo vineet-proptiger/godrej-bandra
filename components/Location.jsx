@@ -3,45 +3,45 @@ import React from 'react'
 
 const locationList = [
   {
-    title: 'Bandra - Worli Sea Link',
-    desc: 'Instant access connecting seamlessly directly to South Mumbai',
-    time: '02 Mins',
-    icon: 'fa-solid fa-bridge',
-  },
-  {
-    title: 'BKC (Bandra Kurla Complex)',
-    desc: 'Mumbai’s premier corporate and international financial epicenter',
-    time: '10 Mins',
-    icon: 'fa-solid fa-building-user',
-  },
-  {
-    title: 'Western Express Highway',
-    desc: 'Direct arterial highway offering effortless connectivity across the city',
-    time: '05 Mins',
-    icon: 'fa-solid fa-road',
-  },
-  {
-    title: 'Lilavati Hospital & Research Centre',
-    desc: 'Pioneering super-specialty healthcare and emergency medical care',
-    time: '05 Mins',
+    title: 'Lilavati Hospital',
+    desc: 'Premier super-specialty healthcare and medical excellence',
+    time: '3 Mins*',
     icon: 'fa-solid fa-hospital',
   },
   {
-    title: 'Bandra Bandstand & Carter Road',
-    desc: 'Coveted seaside promenades, luxury cafes & vibrant social life',
-    time: '08 Mins',
-    icon: 'fa-solid fa-water',
+    title: 'Bandra-Worli Sea Link',
+    desc: 'Direct arterial sea-link connecting swiftly to South Mumbai',
+    time: '4 Mins*',
+    icon: 'fa-solid fa-bridge',
   },
   {
-    title: 'South Mumbai (Lower Parel / Worli)',
-    desc: 'Swift commute to high-end business districts & luxury retail',
-    time: '15 Mins',
-    icon: 'fa-solid fa-city',
+    title: 'Western Express Highway',
+    desc: 'Seamless transit corridor across Mumbai’s major destinations',
+    time: '4 Mins*',
+    icon: 'fa-solid fa-road',
   },
   {
-    title: 'Mumbai International Airport (CSMIA)',
-    desc: 'Expedited commute to domestic and international flight terminals',
-    time: '20 Mins',
+    title: 'Jio World Drive',
+    desc: 'Premier luxury shopping, entertainment & gourmet dining in BKC',
+    time: '6 Mins*',
+    icon: 'fa-solid fa-gem',
+  },
+  {
+    title: 'Taj Lands End',
+    desc: 'Iconic 5-star seaside luxury hospitality & fine dining',
+    time: '8 Mins*',
+    icon: 'fa-solid fa-hotel',
+  },
+  {
+    title: 'Dhirubhai Ambani International School',
+    desc: 'India’s top-ranked world-class international IB school',
+    time: '10 Mins*',
+    icon: 'fa-solid fa-graduation-cap',
+  },
+  {
+    title: 'Chhatrapati Shivaji Maharaj International Airport',
+    desc: 'Swift access to domestic & international flight terminals',
+    time: '10 Mins*',
     icon: 'fa-solid fa-plane-departure',
   },
 ]
@@ -102,13 +102,13 @@ const Location = () => {
             className="w-full h-full min-h-[350px] lg:min-h-full rounded-[20px] overflow-hidden border border-[#EAE6DF] shadow-[0_4px_25px_rgba(0,0,0,0.06)] bg-gray-100 flex"
           >
             <iframe
-              src="https://maps.google.com/maps?q=Bandra+Reclamation,+Bandra+West,+Mumbai,+Maharashtra&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15084.84212221855!2d72.8296543!3d19.054479049999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8e123f8d27b%3A0x437996b49a236a78!2sBandra%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1793368289533!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
+              referrerPolicy="strict-origin-when-cross-origin"
               title="Godrej Bandra Bay Residences, Bandra West, Mumbai Location Map"
               className="w-full h-full min-h-[350px] lg:min-h-[420px]"
             />
