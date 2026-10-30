@@ -1,12 +1,12 @@
 export default function manifest() {
   return {
-    name: 'Godrej Bandra New Launch',
-    short_name: 'Godrej Bandra',
-    description: 'Limited-Edition 4 & 5 BHK Luxury Residences at Bandra Reclamation, Bandra West, Mumbai by Godrej Properties',
+    name: 'Godrej Bandra Bay Residences',
+    short_name: 'Godrej Bandra Bay',
+    description: 'Limited-Edition 4 & 5 BHK Seafront Residences at Bandra Reclamation, Bandra West, Mumbai by Godrej Properties',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',
-    theme_color: '#111111',
+    theme_color: '#0E2430',
     icons: [
       {
         src: '/favicon/favicon.png',

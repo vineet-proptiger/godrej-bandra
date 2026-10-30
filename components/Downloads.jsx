@@ -9,7 +9,7 @@ const docs = [
     label: 'Brochure',
     icon: (hovered) => (
       <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
-        stroke={hovered ? '#ffffff' : '#1a1a1a'}
+        stroke={hovered ? '#ffffff' : '#0E2430'}
         strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
         <rect x="13" y="8"  width="38" height="48" rx="2" />
         <line x1="21" y1="22" x2="43" y2="22" />
@@ -23,7 +23,7 @@ const docs = [
     label: 'Cost Sheet',
     icon: (hovered) => (
       <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
-        stroke={hovered ? '#ffffff' : '#1a1a1a'}
+        stroke={hovered ? '#ffffff' : '#0E2430'}
         strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
         <rect x="10" y="10" width="26" height="20" rx="2" />
         <rect x="28" y="32" width="26" height="20" rx="2" />
@@ -39,7 +39,7 @@ const docs = [
     label: 'Payment Plan',
     icon: (hovered) => (
       <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
-        stroke={hovered ? '#ffffff' : '#1a1a1a'}
+        stroke={hovered ? '#ffffff' : '#0E2430'}
         strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
         <rect x="8"  y="14" width="48" height="36" rx="3" />
         <line x1="8"  y1="24" x2="56" y2="24" />
@@ -53,7 +53,7 @@ const docs = [
     label: 'Site Plan',
     icon: (hovered) => (
       <svg width="64" height="64" viewBox="0 0 64 64" fill="none"
-        stroke={hovered ? '#ffffff' : '#1a1a1a'}
+        stroke={hovered ? '#ffffff' : '#0E2430'}
         strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round">
         <rect x="10" y="10" width="44" height="44" rx="2" />
         <rect x="18" y="18" width="12" height="12" />
@@ -79,14 +79,14 @@ const DownloadCard = ({ doc, setIsOpen }) => {
         flexDirection: 'column',
         overflow: 'hidden',
         borderRadius: '2px',
-        border: hovered ? '1px solid #111' : '1px solid #e0e0e0',
+        border: hovered ? '1px solid #0E2430' : '1px solid #e0e0e0',
         transition: 'border-color 0.3s, box-shadow 0.3s',
         boxShadow: hovered ? '0 8px 32px rgba(0,0,0,0.35)' : 'none',
       }}
     >
       {/* Card body */}
       <div style={{
-        background: hovered ? '#111111' : '#ffffff',
+        background: hovered ? '#0E2430' : '#ffffff',
         padding: '40px 20px 28px',
         textAlign: 'center',
         flex: 1,
@@ -102,7 +102,7 @@ const DownloadCard = ({ doc, setIsOpen }) => {
         {/* Label */}
         <p style={{
           fontFamily: F_JOST, fontWeight: '500', fontSize: '15px',
-          color: hovered ? '#ffffff' : '#1a1a1a',
+          color: hovered ? '#ffffff' : '#0E2430',
           margin: '0 0 14px', letterSpacing: '0.01em',
           transition: 'color 0.3s',
         }}>
@@ -123,7 +123,7 @@ const DownloadCard = ({ doc, setIsOpen }) => {
         onClick={() => setIsOpen(true)}
         style={{
           display: 'block', width: '100%',
-          background: '#111111', color: '#ffffff', border: 'none',
+          background: '#0E2430', color: '#ffffff', border: 'none',
           padding: '15px 0',
           fontFamily: F_JOST, fontWeight: '800', fontSize: '13px',
           letterSpacing: '0.12em', textTransform: 'uppercase',
@@ -131,7 +131,7 @@ const DownloadCard = ({ doc, setIsOpen }) => {
           flexShrink: 0,
         }}
         onMouseEnter={e => (e.currentTarget.style.background = '#8B6A34', e.currentTarget.style.color = '#ffffff')}
-        onMouseLeave={e => (e.currentTarget.style.background = '#111111', e.currentTarget.style.color = '#ffffff')}
+        onMouseLeave={e => (e.currentTarget.style.background = '#0E2430', e.currentTarget.style.color = '#ffffff')}
       >
         DOWNLOAD
       </button>
@@ -140,7 +140,7 @@ const DownloadCard = ({ doc, setIsOpen }) => {
 }
 
 const Downloads = ({ setIsOpen }) => (
-  <section id="downloads" style={{ padding: '72px 0', background: '#111111' }}>
+  <section id="downloads" style={{ padding: '72px 0', background: '#0E2430' }}>
     {/* Truly Full width */}
     <div style={{ width: '100%', padding: '0' }}>
 

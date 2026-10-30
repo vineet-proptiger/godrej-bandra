@@ -3,38 +3,38 @@ import React, { useState } from 'react'
 
 const faqData = [
   {
-    question: 'What configurations are available at Godrej Bandra New Launch?',
+    question: 'What configurations are available at Godrej Bandra Bay Residences?',
     answer: (
       <>
-        Godrej Bandra New Launch offers limited-edition <strong className="font-semibold text-[#111111]">4 BHK and larger 5 BHK luxury residences</strong>, each announced by a private lobby and composed for grand entertaining with voluminous living and dining spaces that open to sweeping Arabian Sea views, delivered in a bespoke bare-shell format.
+        Godrej Bandra Bay Residences offers limited-edition <strong className="font-semibold text-[#0E2430]">4 BHK and larger configurations only</strong>, each announced by a private lobby and composed for grand entertaining with voluminous living and dining spaces that open to true panoramic sea views, delivered in a bespoke bare-shell format.
       </>
     ),
   },
   {
-    question: 'What is the starting price of Godrej Bandra New Launch?',
+    question: 'What is the starting price of Godrej Bandra Bay Residences?',
     answer: (
       <>
-        The starting price is <strong className="font-semibold text-[#111111]">₹ 18 Cr* Onwards</strong>. Exclusive pre-launch pricing, customized cost sheets, and priority allocations are available upon enquiry for registered clients.
+        The starting price is <strong className="font-semibold text-[#0E2430]">₹ 18 Cr* Onwards</strong>. Exclusive pre-launch pricing, customized cost sheets, and priority allocations are available upon enquiry for registered clients.
       </>
     ),
   },
   {
-    question: 'Who is the developer of Godrej Bandra New Launch?',
+    question: 'Who is the developer of Godrej Bandra Bay Residences?',
     answer:
-      'Godrej Bandra New Launch is developed by Godrej Properties, one of India’s most trusted real estate developers renowned for architectural brilliance, sustainability, and landmark residential communities across India.',
+      'Godrej Bandra Bay Residences is developed by Godrej Properties, one of India’s most trusted real estate developers renowned for architectural brilliance, sustainability, and landmark residential communities across India.',
   },
   {
-    question: 'Where exactly is Godrej Bandra New Launch located?',
+    question: 'Where exactly is Godrej Bandra Bay Residences located?',
     answer: (
       <>
-        The project is exceptionally located at <strong className="font-semibold text-[#111111]">Bandra Reclamation, Bandra West, Mumbai</strong>, offering effortless access to the Bandra-Worli Sea Link, BKC, South Mumbai, and Bandra’s most coveted social destinations.
+        The project is exceptionally located at <strong className="font-semibold text-[#0E2430]">Bandra Reclamation, Bandra West, Mumbai</strong>, on a rare 2.75-acre seafront parcel offering effortless access to the Bandra-Worli Sea Link, BKC, South Mumbai, and Bandra’s most coveted social destinations.
       </>
     ),
   },
   {
-    question: 'What amenities are provided at Godrej Bandra New Launch?',
+    question: 'What amenities are provided at Godrej Bandra Bay Residences?',
     answer:
-      'The project features an exclusive private wellness realm with a grand clubhouse, an indulgent spa, floatation therapy, expansive outdoor running decks creating a private promenade above the water, infinity pool, modern gym, and elevated leisure spaces.',
+      'The project features an exclusive private wellness realm with a grand clubhouse, an indulgent spa, floatation therapy, massive outdoor running decks creating a private promenade above the water, infinity pool, modern gym, and elevated leisure spaces.',
   },
   {
     question: 'What is the current status and RERA registration of the project?',
@@ -60,7 +60,7 @@ const FAQ = () => {
           <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-3 block">
             FAQ
           </span>
-          <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+          <h2 className="text-[#0E2430] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             Frequently Asked Questions
           </h2>
         </div>
@@ -81,7 +81,7 @@ const FAQ = () => {
                   onClick={() => toggleAccordion(index)}
                   className={`w-full py-4 px-5 sm:py-5 sm:px-7 flex items-center justify-between gap-4 text-left text-[15.5px] sm:text-[17px] transition-all duration-200 ${
                     isOpen
-                      ? 'bg-[#F4EFE6] text-[#111111] font-bold shadow-inner'
+                      ? 'bg-[#F4EFE6] text-[#0E2430] font-bold shadow-inner'
                       : 'bg-white text-[#212529] font-medium hover:bg-[#fafafa]'
                   }`}
                   aria-expanded={isOpen}

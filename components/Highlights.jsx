@@ -3,34 +3,34 @@ import React from 'react'
 
 const highlights = [
   {
-    title: 'Arabian Sea & Sea Link Views',
-    description: 'Uninterrupted Arabian Sea vistas framing every residence, with stunning views of South Mumbai and Sea Link.',
+    title: '2.75-Acre Seafront Parcel',
+    description: 'Rare pristine seafront land parcel immersed in over 60% open spaces and curated greens.',
     icon: 'fa-solid fa-water'
   },
   {
-    title: 'Crafted by Godrej Properties',
-    description: 'A prestigious landmark address backed by 127 years of trust, visionary architecture, and excellence.',
-    icon: 'fa-solid fa-building-circle-check'
+    title: 'True Panoramic Sea Views',
+    description: 'Uninterrupted, true panoramic Arabian Sea vistas framing every single apartment.',
+    icon: 'fa-solid fa-compass'
   },
   {
-    title: 'Limited-Edition 4 & 5 BHK',
-    description: 'Palatial bare-shell residences with private lobby, grand entertaining spaces, and 11.5 Ft ceiling height.',
-    icon: 'fa-solid fa-house-chimney'
+    title: '4 BHK & Larger Residences',
+    description: 'Limited-edition 4 BHKs and larger configurations only, featuring a private lobby for every residence.',
+    icon: 'fa-solid fa-crown'
   },
   {
-    title: 'Bandra Reclamation Address',
-    description: 'Unrivalled location with effortless connectivity to South Mumbai, Bandra-Worli Sea Link, and BKC.',
-    icon: 'fa-solid fa-location-dot'
+    title: 'Massive Running Decks',
+    description: 'Expansive outdoor running decks creating an exclusive private promenade overlooking the water.',
+    icon: 'fa-solid fa-person-running'
   },
   {
-    title: 'Private Wellness Realm',
-    description: 'Exclusive clubhouse, indulgent spa, floatation therapy, and elevated leisure spaces for profound renewal.',
-    icon: 'fa-solid fa-spa'
+    title: 'Bare Shell Customization',
+    description: 'Delivered as bare shell — providing complete freedom to customize your bespoke interior palette.',
+    icon: 'fa-solid fa-palette'
   },
   {
-    title: 'Over 60% Open Spaces',
-    description: 'Set across 2.75 acres with expansive running decks creating a private promenade above the water.',
-    icon: 'fa-solid fa-tree'
+    title: 'Grand Entertaining Zones',
+    description: 'Expansive living & dining zones with 11.5 Ft ceiling height designed for magnificent hosting.',
+    icon: 'fa-solid fa-champagne-glasses'
   },
 ]
 
@@ -44,8 +44,8 @@ const Highlights = ({ setIsOpen }) => {
           <span className="text-[#8B6A34] font-bold text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
             PROJECT HIGHLIGHTS
           </span>
-          <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight md:whitespace-nowrap">
-            What Makes Godrej Bandra New Launch Stand Apart
+          <h2 className="text-[#0E2430] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight md:whitespace-nowrap">
+            What Makes Godrej Bandra Bay Residences Stand Apart
           </h2>
         </div>
 
@@ -61,10 +61,10 @@ const Highlights = ({ setIsOpen }) => {
               <div>
                 {/* Top Row: Icon & Title Side-by-Side */}
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="w-[52px] h-[52px] min-w-[52px] min-h-[52px] rounded-[14px] bg-[#F4EFE6] text-[#8B6A34] group-hover:bg-[#111111] group-hover:text-white flex items-center justify-center text-[22px] transition-all duration-300 shadow-sm flex-shrink-0 group-hover:scale-105">
+                  <div className="w-[52px] h-[52px] min-w-[52px] min-h-[52px] rounded-[14px] bg-[#F4EFE6] text-[#8B6A34] group-hover:bg-[#0E2430] group-hover:text-white flex items-center justify-center text-[22px] transition-all duration-300 shadow-sm flex-shrink-0 group-hover:scale-105">
                     <i className={item.icon}></i>
                   </div>
-                  <h4 className="text-[#111111] font-bold text-[17px] sm:text-[18px] leading-snug group-hover:text-[#8B6A34] transition-colors duration-200 m-0">
+                  <h4 className="text-[#0E2430] font-bold text-[17px] sm:text-[18px] leading-snug group-hover:text-[#8B6A34] transition-colors duration-200 m-0">
                     {item.title}
                   </h4>
                 </div>

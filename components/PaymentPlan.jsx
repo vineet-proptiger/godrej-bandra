@@ -37,7 +37,7 @@ const PaymentPlan = ({ setIsOpen }) => {
           <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-3 block">
             PAYMENT PLAN
           </span>
-          <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+          <h2 className="text-[#0E2430] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             Flexible Payment Plan
           </h2>
         </div>
@@ -66,7 +66,7 @@ const PaymentPlan = ({ setIsOpen }) => {
                     isActive ? 'scale-[1.01] sm:scale-100 z-10' : ''
                   }`}
                   style={{
-                    background: isActive ? '#111111' : 'transparent',
+                    background: isActive ? '#0E2430' : 'transparent',
                     boxShadow: isActive ? '0 12px 30px rgba(0, 0, 0, 0.35)' : 'none',
                   }}
                 >
@@ -82,7 +82,7 @@ const PaymentPlan = ({ setIsOpen }) => {
                   <h3
                     className="text-[22px] sm:text-[24px] font-extrabold mb-3.5 tracking-tight transition-colors duration-300"
                     style={{
-                      color: isActive ? '#ffffff' : '#111111',
+                      color: isActive ? '#ffffff' : '#0E2430',
                     }}
                   >
                     {plan.title}

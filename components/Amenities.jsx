@@ -54,7 +54,7 @@ const Amenities = () => {
           <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2 block">
             WORLD CLASS AMENITIES
           </span>
-          <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+          <h2 className="text-[#0E2430] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             A Lifestyle That Complements Your Vision of Luxury
           </h2>
         </div>
@@ -72,12 +72,12 @@ const Amenities = () => {
                 {/* Center Content */}
                 <div className="flex flex-col items-center w-full">
                   {/* Round Icon Badge */}
-                  <div className="w-16 h-16 rounded-full flex items-center justify-center text-[22px] mb-5 transition-all duration-300 group-hover:scale-108 bg-[#F4EFE6] text-[#8B6A34] group-hover:bg-[#111111] group-hover:text-white shadow-sm font-bold">
+                  <div className="w-16 h-16 rounded-full flex items-center justify-center text-[22px] mb-5 transition-all duration-300 group-hover:scale-108 bg-[#F4EFE6] text-[#8B6A34] group-hover:bg-[#0E2430] group-hover:text-white shadow-sm font-bold">
                     <i className={item.icon}></i>
                   </div>
 
                   {/* Amenity Title */}
-                  <h3 className="font-bold text-[17px] sm:text-[18px] mb-2 leading-snug transition-colors duration-200 text-[#111111] group-hover:text-[#8B6A34]">
+                  <h3 className="font-bold text-[17px] sm:text-[18px] mb-2 leading-snug transition-colors duration-200 text-[#0E2430] group-hover:text-[#8B6A34]">
                     {item.title}
                   </h3>
 

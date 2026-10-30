@@ -56,7 +56,7 @@ const Location = () => {
           <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
             LOCATION ADVANTAGES
           </span>
-          <h2 className="text-[#111111] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+          <h2 className="text-[#0E2430] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             A Location That Keeps You Connected
           </h2>
         </div>
@@ -75,11 +75,11 @@ const Location = () => {
               >
                 {/* Left side: Icon & Title + Context */}
                 <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 pr-2">
-                  <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#F4EFE6] group-hover:bg-[#111111] text-[#111111] group-hover:text-[#8B6A34] flex items-center justify-center text-[13px] sm:text-[14px] shrink-0 transition-colors duration-200">
-                    <i className={`${item.icon} text-[#111111] group-hover:text-[#8B6A34]`}></i>
+                  <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#F4EFE6] group-hover:bg-[#0E2430] text-[#0E2430] group-hover:text-[#8B6A34] flex items-center justify-center text-[13px] sm:text-[14px] shrink-0 transition-colors duration-200">
+                    <i className={`${item.icon} text-[#0E2430] group-hover:text-[#8B6A34]`}></i>
                   </div>
                   <div className="min-w-0 flex flex-col">
-                    <span className="text-[#1f2937] group-hover:text-[#111111] font-bold text-[13px] sm:text-[14px] transition-colors duration-200 leading-snug truncate">
+                    <span className="text-[#1f2937] group-hover:text-[#0E2430] font-bold text-[13px] sm:text-[14px] transition-colors duration-200 leading-snug truncate">
                       {item.title}
                     </span>
                     <span className="text-gray-500 text-[11px] sm:text-[11.5px] transition-colors duration-200 leading-tight truncate">
@@ -89,7 +89,7 @@ const Location = () => {
                 </div>
 
                 {/* Right side: Time Badge */}
-                <span className="bg-[#F4EFE6] group-hover:bg-[#111111] text-[#111111] group-hover:text-white font-bold text-[11px] sm:text-[12px] px-2.5 sm:px-3 py-1 rounded-full whitespace-nowrap transition-colors duration-200 shrink-0 shadow-xs">
+                <span className="bg-[#F4EFE6] group-hover:bg-[#0E2430] text-[#0E2430] group-hover:text-white font-bold text-[11px] sm:text-[12px] px-2.5 sm:px-3 py-1 rounded-full whitespace-nowrap transition-colors duration-200 shrink-0 shadow-xs">
                   {item.time}
                 </span>
               </div>
@@ -109,7 +109,7 @@ const Location = () => {
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Godrej Bandra New Launch, Bandra West, Mumbai Location Map"
+              title="Godrej Bandra Bay Residences, Bandra West, Mumbai Location Map"
               className="w-full h-full min-h-[350px] lg:min-h-[420px]"
             />
           </div>

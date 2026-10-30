@@ -1,6 +1,6 @@
 import { SITE_URL } from '../lib/config'
 
-const BASE_URL = SITE_URL || 'https://godrejbandranewlaunch.com'
+const BASE_URL = SITE_URL || 'https://godrejbandrabayresidences.com'
 
 export default function sitemap() {
   return [

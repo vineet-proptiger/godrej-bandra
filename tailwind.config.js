@@ -27,13 +27,13 @@ module.exports = {
           bg: '#F9F8F3',
         },
         primary: {
-          DEFAULT: '#111111',
-          light: '#222222',
-          dark: '#000000',
+          DEFAULT: '#0E2430',
+          light: '#163647',
+          dark: '#081720',
         },
         dark: {
-          DEFAULT: '#111111',
-          mid: '#000000',
+          DEFAULT: '#0E2430',
+          mid: '#081720',
         },
         light: {
           DEFAULT: '#F9F8F3',

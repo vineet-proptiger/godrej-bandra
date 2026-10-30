@@ -95,8 +95,8 @@ const Hero = ({ setIsOpen }) => {
                 </div>
 
                 {/* Main Headline */}
-                <h1 className="text-[#111111] font-black tracking-tight leading-[1.18] text-[24px] xs:text-[28px] sm:text-[32px] md:text-[36px] m-0">
-                  Godrej Bandra New Launch
+                <h1 className="text-[#0E2430] font-black tracking-tight leading-[1.18] text-[24px] xs:text-[28px] sm:text-[32px] md:text-[36px] m-0">
+                  Godrej Bandra Bay Residences
                 </h1>
 
                 {/* Subheadline (Location) */}
@@ -107,7 +107,7 @@ const Hero = ({ setIsOpen }) => {
               </div>
 
               {/* ── LUXURY GALLERY CENTERPIECE (With refined bezel framing) ── */}
-              <div className="p-[3.5px] sm:p-1 rounded-2xl sm:rounded-3xl bg-gradient-to-tr from-[#111111] via-[#8B6A34] to-[#111111] shadow-[0_15px_40px_rgba(0,0,0,0.12)]">
+              <div className="p-[3.5px] sm:p-1 rounded-2xl sm:rounded-3xl bg-gradient-to-tr from-[#0E2430] via-[#8B6A34] to-[#0E2430] shadow-[0_15px_40px_rgba(0,0,0,0.12)]">
                 <div className="relative rounded-[14px] sm:rounded-[22px] overflow-hidden bg-black">
                   <div 
                     onTransitionEnd={handleTransitionEnd}
@@ -149,14 +149,64 @@ const Hero = ({ setIsOpen }) => {
                       }}
                       className={`py-2 px-3 rounded-xl text-xs sm:text-[13px] font-bold transition-all duration-300 cursor-pointer text-center flex items-center justify-center gap-1.5 border whitespace-nowrap ${
                         isActive
-                          ? 'bg-[#111111] text-white border-[#111111] shadow-[0_4px_16px_rgba(0,0,0,0.25)] font-extrabold -translate-y-0.5'
-                          : 'bg-white text-[#111111] border-[#EAE6DF] hover:border-[#8B6A34] hover:text-[#8B6A34] hover:bg-[#F4EFE6] shadow-sm'
+                          ? 'bg-[#0E2430] text-white border-[#0E2430] shadow-[0_4px_16px_rgba(0,0,0,0.25)] font-extrabold -translate-y-0.5'
+                          : 'bg-white text-[#0E2430] border-[#EAE6DF] hover:border-[#8B6A34] hover:text-[#8B6A34] hover:bg-[#F4EFE6] shadow-sm'
                       }`}
                     >
                       <span>{slide.name}</span>
                     </button>
                   )
                 })}
+              </div>
+
+              {/* ── PROJECT KEY STATS STRIP (2nd SS Design) ── */}
+              <div className="mt-4 sm:mt-5 bg-white rounded-2xl sm:rounded-[22px] border border-[#EAE6DF] shadow-[0_8px_25px_rgba(0,0,0,0.06)] overflow-hidden">
+                <div className="grid grid-cols-3 divide-x divide-[#EAE6DF] py-3.5 sm:py-4 px-1 sm:px-3">
+                  <div className="flex flex-col items-center text-center px-1 sm:px-2">
+                    <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full border-2 border-[#8B6A34] text-[#8B6A34] bg-[#FAF8F5] flex items-center justify-center mb-1.5 text-xs sm:text-sm shadow-xs">
+                      <i className="fa-solid fa-tree" />
+                    </div>
+                    <div className="text-[13.5px] sm:text-[16.5px] font-black text-[#0E2430] tracking-tight leading-tight">
+                      2.75 Acres
+                    </div>
+                    <div className="text-[10px] sm:text-[11px] font-bold text-[#8B6A34] mt-0.5 leading-tight">
+                      60% Open Spaces
+                    </div>
+                    <div className="text-[9px] sm:text-[10px] font-bold text-gray-400 uppercase tracking-wider mt-0.5 leading-tight">
+                      LAND PARCEL
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col items-center text-center px-1 sm:px-2">
+                    <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full border-2 border-[#8B6A34] text-[#8B6A34] bg-[#FAF8F5] flex items-center justify-center mb-1.5 text-xs sm:text-sm shadow-xs">
+                      <i className="fa-solid fa-city" />
+                    </div>
+                    <div className="text-[13.5px] sm:text-[16.5px] font-black text-[#0E2430] tracking-tight leading-tight">
+                      1 Tower
+                    </div>
+                    <div className="text-[10px] sm:text-[11px] font-bold text-[#8B6A34] mt-0.5 leading-tight">
+                      5 Distinct Wings
+                    </div>
+                    <div className="text-[9px] sm:text-[10px] font-bold text-gray-400 uppercase tracking-wider mt-0.5 leading-tight">
+                      TOWER COMPOSITION
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col items-center text-center px-1 sm:px-2">
+                    <div className="w-9 h-9 sm:w-11 sm:h-11 rounded-full border-2 border-[#8B6A34] text-[#8B6A34] bg-[#FAF8F5] flex items-center justify-center mb-1.5 text-xs sm:text-sm shadow-xs">
+                      <i className="fa-solid fa-building" />
+                    </div>
+                    <div className="text-[13.5px] sm:text-[16.5px] font-black text-[#0E2430] tracking-tight leading-tight">
+                      26 Storeys
+                    </div>
+                    <div className="text-[10px] sm:text-[11px] font-bold text-[#8B6A34] mt-0.5 leading-tight">
+                      5 Basements
+                    </div>
+                    <div className="text-[9px] sm:text-[10px] font-bold text-gray-400 uppercase tracking-wider mt-0.5 leading-tight">
+                      STRUCTURE
+                    </div>
+                  </div>
+                </div>
               </div>
 
             </div>
@@ -175,14 +225,14 @@ const Hero = ({ setIsOpen }) => {
                       <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#8B6A34] opacity-75"></span>
                       <span className="relative inline-flex rounded-full h-2 w-2 bg-[#8B6A34]"></span>
                     </span>
-                    <strong className="blink-price font-black text-[16.5px] sm:text-[20.5px] whitespace-nowrap tracking-tight text-[#111111]">
+                    <strong className="blink-price font-black text-[16.5px] sm:text-[20.5px] whitespace-nowrap tracking-tight text-[#0E2430]">
                       ₹ 18 Cr*
                     </strong>
                   </div>
                 </div>
                 <div className="border-l border-[#EAE6DF] pl-2 sm:pl-4 lg:pl-5 flex-shrink-0">
                   <span className="text-gray-500 font-bold text-[10px] sm:text-[11px] uppercase tracking-wider block mb-0.5">Typology</span>
-                  <strong className="text-[#111111] font-black text-[13px] sm:text-[15px] whitespace-nowrap">4 &amp; 5 BHK</strong>
+                  <strong className="text-[#0E2430] font-black text-[13px] sm:text-[15px] whitespace-nowrap">4 BHK &amp; Larger</strong>
                 </div>
                 <div className="border-l border-[#EAE6DF] pl-2 sm:pl-4 lg:pl-5 flex-shrink-0">
                   <span className="text-gray-500 font-bold text-[10px] sm:text-[11px] uppercase tracking-wider block mb-0.5">Status</span>
@@ -195,12 +245,12 @@ const Hero = ({ setIsOpen }) => {
                 style={{
                   border: '1px solid #EAE6DF',
                   boxShadow: '0 20px 50px rgba(0, 0, 0, 0.08)',
-                  borderTop: '4px solid #111111',
+                  borderTop: '4px solid #0E2430',
                 }}
               >
                 {/* Header */}
                 <div className="text-center mb-4 sm:mb-5">
-                  <h3 className="text-lg xs:text-xl sm:text-2xl font-black text-[#111111] tracking-tight m-0">
+                  <h3 className="text-lg xs:text-xl sm:text-2xl font-black text-[#0E2430] tracking-tight m-0">
                     Unlock Exclusive Launch Benefits
                   </h3>
                   <p className="text-[11px] sm:text-xs text-gray-500 mt-1 font-normal leading-relaxed">
@@ -209,7 +259,7 @@ const Hero = ({ setIsOpen }) => {
                 </div>
 
                 {/* LeadForm */}
-                <LeadForm formName="Godrej Bandra New Launch Form" btnText="Submit" />
+                <LeadForm formName="Godrej Bandra Bay Residences Form" btnText="Submit" />
 
                 {/* ── 3 CTA BUTTONS BAR ── */}
                 <div className="mt-3.5 pt-3.5 border-t border-gray-100">
@@ -217,7 +267,7 @@ const Hero = ({ setIsOpen }) => {
                     <button
                       type="button"
                       onClick={() => setIsOpen && setIsOpen(true)}
-                      className="py-2.5 px-1 sm:px-2 rounded-xl text-[11px] min-[360px]:text-[11.5px] min-[400px]:text-xs sm:text-[13px] font-bold text-center bg-[#111111] text-white border border-[#111111] hover:bg-[#8B6A34] hover:border-[#8B6A34] hover:text-white shadow-md hover:shadow-[0_8px_20px_rgba(139,106,52,0.3)] hover:-translate-y-0.5 active:scale-95 transition-all duration-300 flex items-center justify-center gap-1 sm:gap-1.5 cursor-pointer overflow-hidden"
+                      className="py-2.5 px-1 sm:px-2 rounded-xl text-[11px] min-[360px]:text-[11.5px] min-[400px]:text-xs sm:text-[13px] font-bold text-center bg-[#0E2430] text-white border border-[#0E2430] hover:bg-[#8B6A34] hover:border-[#8B6A34] hover:text-white shadow-md hover:shadow-[0_8px_20px_rgba(139,106,52,0.3)] hover:-translate-y-0.5 active:scale-95 transition-all duration-300 flex items-center justify-center gap-1 sm:gap-1.5 cursor-pointer overflow-hidden"
                     >
                       <i className="fas fa-paper-plane text-[9px] min-[360px]:text-[10px] shrink-0 text-[#E2D9CC]"></i>
                       <span className="truncate">Enquire<span className="hidden min-[380px]:inline"> Now</span></span>
@@ -225,7 +275,7 @@ const Hero = ({ setIsOpen }) => {
                     <button
                       type="button"
                       onClick={() => setIsOpen && setIsOpen(true)}
-                      className="py-2.5 px-1 sm:px-2 rounded-xl text-[11px] min-[360px]:text-[11.5px] min-[400px]:text-xs sm:text-[13px] font-bold text-center bg-[#111111] text-white border border-[#111111] hover:bg-[#8B6A34] hover:border-[#8B6A34] hover:text-white shadow-md hover:shadow-[0_8px_20px_rgba(139,106,52,0.3)] hover:-translate-y-0.5 active:scale-95 transition-all duration-300 flex items-center justify-center gap-1 sm:gap-1.5 cursor-pointer overflow-hidden"
+                      className="py-2.5 px-1 sm:px-2 rounded-xl text-[11px] min-[360px]:text-[11.5px] min-[400px]:text-xs sm:text-[13px] font-bold text-center bg-[#0E2430] text-white border border-[#0E2430] hover:bg-[#8B6A34] hover:border-[#8B6A34] hover:text-white shadow-md hover:shadow-[0_8px_20px_rgba(139,106,52,0.3)] hover:-translate-y-0.5 active:scale-95 transition-all duration-300 flex items-center justify-center gap-1 sm:gap-1.5 cursor-pointer overflow-hidden"
                     >
                       <i className="fas fa-calendar-check text-[10px] min-[360px]:text-[11px] shrink-0 text-[#E2D9CC]"></i>
                       <span className="truncate"><span className="hidden min-[410px]:inline">Schedule </span>Visit</span>
@@ -233,7 +283,7 @@ const Hero = ({ setIsOpen }) => {
                     <button
                       type="button"
                       onClick={() => setIsOpen && setIsOpen(true)}
-                      className="py-2.5 px-1 sm:px-2 rounded-xl text-[11px] min-[360px]:text-[11.5px] min-[400px]:text-xs sm:text-[13px] font-bold text-center bg-[#111111] text-white border border-[#111111] hover:bg-[#8B6A34] hover:border-[#8B6A34] hover:text-white shadow-md hover:shadow-[0_8px_20px_rgba(139,106,52,0.3)] hover:-translate-y-0.5 active:scale-95 transition-all duration-300 flex items-center justify-center gap-1 sm:gap-1.5 cursor-pointer overflow-hidden"
+                      className="py-2.5 px-1 sm:px-2 rounded-xl text-[11px] min-[360px]:text-[11.5px] min-[400px]:text-xs sm:text-[13px] font-bold text-center bg-[#0E2430] text-white border border-[#0E2430] hover:bg-[#8B6A34] hover:border-[#8B6A34] hover:text-white shadow-md hover:shadow-[0_8px_20px_rgba(139,106,52,0.3)] hover:-translate-y-0.5 active:scale-95 transition-all duration-300 flex items-center justify-center gap-1 sm:gap-1.5 cursor-pointer overflow-hidden"
                     >
                       <i className="fas fa-file-invoice-dollar text-[10px] min-[360px]:text-[11px] shrink-0 text-[#E2D9CC]"></i>
                       <span className="truncate">Cost Sheet</span>
@@ -247,7 +297,7 @@ const Hero = ({ setIsOpen }) => {
                       className="inline-flex items-center gap-1.5 text-[11.5px] text-gray-600 hover:text-[#8B6A34] font-medium transition-colors"
                     >
                       <i className="fas fa-phone text-[#8B6A34] text-[10px]" />
-                      <span>Sales Desk: <strong className="text-[#111111]">{PHONE_DISPLAY}</strong></span>
+                      <span>Sales Desk: <strong className="text-[#0E2430]">{PHONE_DISPLAY}</strong></span>
                     </a>
                   </div>
                 </div>

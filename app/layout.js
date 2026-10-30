@@ -26,23 +26,23 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  metadataBase: new URL(SITE_URL || 'https://godrejbandranewlaunch.com'),
-  title: 'Godrej Bandra New Launch | 4 & 5 BHK Luxury Residences Bandra West Mumbai',
-  description: 'Godrej Bandra New Launch at Bandra Reclamation, Bandra West, Mumbai by Godrej Properties offers limited-edition 4 & 5 BHK luxury residences with Arabian Sea vistas. Pre-Launch.',
+  metadataBase: new URL(SITE_URL || 'https://godrejbandrabayresidences.com'),
+  title: 'Godrej Bandra Bay Residences | 4 & 5 BHK Luxury Residences Bandra West Mumbai',
+  description: 'Godrej Bandra Bay Residences at Bandra Reclamation, Bandra West, Mumbai by Godrej Properties offers limited-edition 4 & 5 BHK luxury residences with true panoramic sea views. Pre-Launch.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Godrej Bandra New Launch | 4 & 5 BHK Luxury Residences Bandra West Mumbai',
-    description: 'Godrej Bandra New Launch at Bandra Reclamation, Bandra West, Mumbai by Godrej Properties offers limited-edition 4 & 5 BHK luxury residences with Arabian Sea vistas. Pre-Launch.',
-    url: SITE_URL || 'https://godrejbandranewlaunch.com',
-    siteName: 'Godrej Bandra New Launch',
+    title: 'Godrej Bandra Bay Residences | 4 & 5 BHK Luxury Residences Bandra West Mumbai',
+    description: 'Godrej Bandra Bay Residences at Bandra Reclamation, Bandra West, Mumbai by Godrej Properties offers limited-edition 4 & 5 BHK luxury residences with true panoramic sea views. Pre-Launch.',
+    url: SITE_URL || 'https://godrejbandrabayresidences.com',
+    siteName: 'Godrej Bandra Bay Residences',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Godrej Bandra New Launch | 4 & 5 BHK Luxury Residences Bandra West Mumbai',
-    description: 'Godrej Bandra New Launch at Bandra Reclamation, Bandra West, Mumbai by Godrej Properties offers limited-edition 4 & 5 BHK luxury residences with Arabian Sea vistas. Pre-Launch.',
+    title: 'Godrej Bandra Bay Residences | 4 & 5 BHK Luxury Residences Bandra West Mumbai',
+    description: 'Godrej Bandra Bay Residences at Bandra Reclamation, Bandra West, Mumbai by Godrej Properties offers limited-edition 4 & 5 BHK luxury residences with true panoramic sea views. Pre-Launch.',
   },
   icons: {
     icon: '/favicon/favicon.png',
