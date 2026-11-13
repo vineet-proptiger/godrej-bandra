@@ -6,7 +6,7 @@ const faqData = [
     question: 'What configurations are available at Godrej Bandra Bay Residences?',
     answer: (
       <>
-        Godrej Bandra Bay Residences offers limited-edition <strong className="font-semibold text-[#0E2430]">4 BHK and larger configurations only</strong>, each announced by a private lobby and composed for grand entertaining with voluminous living and dining spaces that open to true panoramic sea views, delivered in a bespoke bare-shell format.
+        Godrej Bandra Bay Residences offers limited-edition <strong className="font-semibold text-[#000000]">4 BHK and larger configurations only</strong>, each announced by a private lobby and composed for grand entertaining with voluminous living and dining spaces that open to true panoramic sea views, delivered in a bespoke bare-shell format.
       </>
     ),
   },
@@ -14,7 +14,7 @@ const faqData = [
     question: 'What is the starting price of Godrej Bandra Bay Residences?',
     answer: (
       <>
-        The starting price is <strong className="font-semibold text-[#0E2430]">₹ 18 Cr* Onwards</strong>. Exclusive pre-launch pricing, customized cost sheets, and priority allocations are available upon enquiry for registered clients.
+        The starting price is <strong className="font-semibold text-[#000000]">₹ 18 Cr* Onwards</strong>. Exclusive pre-launch pricing, customized cost sheets, and priority allocations are available upon enquiry for registered clients.
       </>
     ),
   },
@@ -27,7 +27,7 @@ const faqData = [
     question: 'Where exactly is Godrej Bandra Bay Residences located?',
     answer: (
       <>
-        The project is exceptionally located at <strong className="font-semibold text-[#0E2430]">Bandra Reclamation, Bandra West, Mumbai</strong>, on a rare 2.75-acre seafront parcel offering effortless access to the Bandra-Worli Sea Link, BKC, South Mumbai, and Bandra’s most coveted social destinations.
+        The project is exceptionally located at <strong className="font-semibold text-[#000000]">Bandra Reclamation, Bandra West, Mumbai</strong>, on a rare 2.75-acre seafront parcel offering effortless access to the Bandra-Worli Sea Link, BKC, South Mumbai, and Bandra’s most coveted social destinations.
       </>
     ),
   },
@@ -57,10 +57,10 @@ const FAQ = () => {
         
         {/* Section Title */}
         <div className="text-center max-w-[800px] mx-auto mb-12 sm:mb-14" data-aos="fade-up">
-          <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-3 block">
+          <span className="text-[#DFBA73] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-3 block">
             FAQ
           </span>
-          <h2 className="text-[#0E2430] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+          <h2 className="text-[#000000] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             Frequently Asked Questions
           </h2>
         </div>
@@ -81,7 +81,7 @@ const FAQ = () => {
                   onClick={() => toggleAccordion(index)}
                   className={`w-full py-4 px-5 sm:py-5 sm:px-7 flex items-center justify-between gap-4 text-left text-[15.5px] sm:text-[17px] transition-all duration-200 ${
                     isOpen
-                      ? 'bg-[#F4EFE6] text-[#0E2430] font-bold shadow-inner'
+                      ? 'bg-[#f3f4f6] text-[#000000] font-bold shadow-inner'
                       : 'bg-white text-[#212529] font-medium hover:bg-[#fafafa]'
                   }`}
                   aria-expanded={isOpen}

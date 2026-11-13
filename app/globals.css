@@ -8,46 +8,47 @@
    THEME VARIABLES — Godrej Bandra Bay Residences
    ═══════════════════════════════════════════════════════════════ */
 :root {
-  /* ── Godrej Bandra Bay Residences — Palette (#0E2430 + #8B6A34 + Warm Cream #F9F8F3) ── */
-  --color-gold: #8B6A34;
-  --color-gold-light: #A68245;
-  --color-gold-dark: #6F5327;
-  --color-gold-bg: #F9F8F3;
+  /* ── Black & White Luxury Gold Palette (From Revanza Fortune) ── */
+  --color-gold: #000000;
+  --color-gold-light: #222222;
+  --color-gold-dark: #000000;
+  --color-gold-bg: #f5f5f5;
+  --color-gold-accent: #DFBA73;
 
-  /* ── Primary (Deep Forest Pine Green) ── */
-  --color-primary: #0E2430;
+  /* ── Primary ── */
+  --color-primary: #000000;
   --color-primary-light: #222222;
-  --color-primary-dark: #081720;
+  --color-primary-dark: #000000;
 
-  /* ── Accent (Warm Antique Gold / Bronze) ── */
-  --color-teal: #8B6A34;
-  --color-teal-light: #A68245;
-  --color-teal-dark: #6F5327;
+  /* ── Accent ── */
+  --color-teal: #111111;
+  --color-teal-light: #333333;
+  --color-teal-dark: #000000;
 
   /* ── Dark backgrounds ── */
-  --color-dark: #0E2430;
-  --color-dark-mid: #081720;
+  --color-dark: #212529;
+  --color-dark-mid: #343a40;
 
   /* ── Backgrounds ── */
-  --color-bg: #F9F8F3;
-  --color-bg-light: #F9F8F3;
-  --color-bg-muted: #F4EFE6;
+  --color-bg: #EBE9E4;
+  --color-bg-light: #EBE9E4;
+  --color-bg-muted: #e2e0db;
 
   /* ── Text ── */
-  --color-text: #0E2430;
-  --color-text-mid: #2D3748;
+  --color-text: #212529;
+  --color-text-mid: #495057;
   --color-text-light: #6c757d;
 
   /* ── UI ── */
-  --btn-radius: 50px;
-  --btn-radius-pill: 50px;
+  --btn-radius: 4px;
+  --btn-radius-pill: 4px;
 
   /* ── Shadows ── */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
   --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.12);
   --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.16);
-  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.06);
-  --color-shadow-inner: rgba(0, 0, 0, 0.15);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.07);
+  --color-shadow-inner: rgba(0, 0, 0, 0.12);
 }
 
 /* ─── Keyframes ─────────────────────────────────────────────── */
@@ -111,11 +112,11 @@
 
   0%,
   100% {
-    box-shadow: 0 0 0 0 rgba(0, 73, 53, 0.45);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.45);
   }
 
   50% {
-    box-shadow: 0 0 0 12px rgba(0, 73, 53, 0);
+    box-shadow: 0 0 0 12px rgba(0, 0, 0, 0);
   }
 }
 
@@ -145,11 +146,11 @@
 
   0%,
   100% {
-    border-color: rgba(0, 73, 53, 0.4);
+    border-color: rgba(0, 0, 0, 0.3);
   }
 
   50% {
-    border-color: rgba(0, 73, 53, 1);
+    border-color: rgba(0, 0, 0, 0.8);
   }
 }
 
@@ -231,17 +232,17 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: linear-gradient(180deg, #0E2430, #8B6A34);
+    background: #111111;
     border-radius: 4px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #8B6A34;
+    background: #333333;
   }
 
   ::selection {
-    background: rgba(139, 106, 52, 0.25);
-    color: #0E2430;
+    background: rgba(0, 0, 0, 0.15);
+    color: #000000;
   }
 }
 
@@ -252,9 +253,9 @@
   .btn-gold {
     position: relative;
     overflow: hidden;
-    background: #0E2430;
+    background: #000000;
     color: #ffffff;
-    border: 2px solid #0E2430;
+    border: 2px solid #000000;
     border-radius: var(--btn-radius);
     padding: 12px 32px;
     font-family: var(--font-jost), 'Montserrat', sans-serif;
@@ -288,11 +289,11 @@
   }
 
   .btn-gold:hover {
-    background: #8B6A34 !important;
+    background: #222222 !important;
     color: #ffffff !important;
-    border-color: #8B6A34;
+    border-color: #222222;
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(139, 106, 52, 0.35);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
   }
 
   .btn-gold:active {
@@ -366,9 +367,9 @@
     font-family: var(--font-poppins), 'Poppins', sans-serif;
     letter-spacing: 2px;
     box-shadow: -4px 0 20px rgba(0, 0, 0, 0.25);
-    background: #0E2430;
+    background: #000000;
     color: #ffffff;
-    border: 2px solid #8B6A34;
+    border: 2px solid #000000;
     border-right: none;
     transition: all 0.3s ease;
     text-transform: uppercase;
@@ -377,10 +378,10 @@
 
   .btn-floating-tab:hover {
     transform: translateY(-50%) translateX(-3px) !important;
-    background: #8B6A34 !important;
+    background: #222222 !important;
     color: #ffffff !important;
-    border-color: #8B6A34;
-    box-shadow: -6px 0 25px rgba(139, 106, 52, 0.45);
+    border-color: #222222;
+    box-shadow: -6px 0 25px rgba(0, 0, 0, 0.3);
   }
 
   /* ══ SECTION TITLE ══ */
@@ -407,8 +408,8 @@
   }
 
   .form-input:focus {
-    border-color: #0E2430;
-    box-shadow: 0 0 0 3px rgba(139, 106, 52, 0.2);
+    border-color: #000000;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
   }
 
   .form-input::placeholder {
@@ -582,9 +583,9 @@
 }
 
 .lead-form-input:focus {
-  border-color: #0E2430;
+  border-color: #000000;
   background: #ffffff;
-  box-shadow: 0 0 0 3px rgba(139, 106, 52, 0.2);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
 }
 
 .lead-form-input::placeholder {
@@ -592,46 +593,51 @@
   font-weight: 400;
 }
 
-/* Hero Section Inputs (Light Luxury Theme) */
+/* Hero Section Inputs (B&W Theme) */
 .hero-section .lead-form-input {
-  background: #FAF8F2;
-  border: 1.5px solid #EAE6DF;
-  color: #0E2430;
+  background: #ffffff !important;
+  border: 1.5px solid #d1d5db !important;
+  color: #000000 !important;
+  border-radius: 10px;
 }
 
 .hero-section .lead-form-input::placeholder {
-  color: #94a3b8;
+  color: #9ca3af !important;
   opacity: 1;
 }
 
 .hero-section .lead-form-input:focus {
-  background: #ffffff;
-  border-color: #0E2430;
-  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  background: #ffffff !important;
+  border-color: #000000 !important;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1) !important;
 }
 
 .hero-section .lead-form-btn {
-  background: #0E2430 !important;
+  background: #000000 !important;
   color: #ffffff !important;
-  border: 2px solid #0E2430 !important;
-  font-weight: 800;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  border: 2px solid #000000 !important;
+  font-weight: 800 !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25) !important;
 }
 
 .hero-section .lead-form-btn:hover {
-  background: #8B6A34 !important;
+  background: #222222 !important;
   color: #ffffff !important;
-  border-color: #8B6A34 !important;
-  box-shadow: 0 8px 25px rgba(139, 106, 52, 0.35);
+  border-color: #222222 !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+.hero-section label[for="consentCheck"] {
+  color: #6b7280 !important;
 }
 
 .lead-form-btn {
   width: 100%;
   padding: 14px 24px;
-  background: #0E2430;
+  background: #000000;
   color: #ffffff;
-  border: 2px solid #0E2430;
-  border-radius: 50px;
+  border: 2px solid #000000;
+  border-radius: 4px;
   font-size: 16px;
   font-weight: 800;
   font-family: var(--font-poppins), 'Poppins', sans-serif;
@@ -641,10 +647,10 @@
 }
 
 .lead-form-btn:hover {
-  background: #8B6A34 !important;
+  background: #222222 !important;
   color: #ffffff !important;
-  border-color: #8B6A34;
-  box-shadow: 0 8px 25px rgba(139, 106, 52, 0.35);
+  border-color: #222222;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
   transform: translateY(-1px);
 }
 

@@ -7,40 +7,41 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
+            colors: {
         gold: {
-          DEFAULT: '#8B6A34',
-          light: '#A68245',
-          dark: '#6F5327',
-          bg: '#F9F8F3',
+          DEFAULT: '#000000',
+          light: '#222222',
+          dark: '#000000',
+          bg: '#f5f5f5',
+          accent: '#DFBA73',
         },
         teal: {
-          DEFAULT: '#8B6A34',
-          light: '#A68245',
-          dark: '#6F5327',
-          bg: '#F4EFE6',
+          DEFAULT: '#111111',
+          light: '#333333',
+          dark: '#000000',
+          bg: '#f5f5f5',
         },
         terracotta: {
-          DEFAULT: '#8B6A34',
-          light: '#A68245',
-          dark: '#6F5327',
-          bg: '#F9F8F3',
+          DEFAULT: '#000000',
+          light: '#222222',
+          dark: '#000000',
+          bg: '#f5f5f5',
         },
         primary: {
-          DEFAULT: '#0E2430',
-          light: '#163647',
-          dark: '#081720',
+          DEFAULT: '#000000',
+          light: '#222222',
+          dark: '#000000',
         },
         dark: {
-          DEFAULT: '#0E2430',
-          mid: '#081720',
+          DEFAULT: '#212529',
+          mid: '#343a40',
         },
         light: {
-          DEFAULT: '#F9F8F3',
-          muted: '#F4EFE6',
+          DEFAULT: '#EBE9E4',
+          muted: '#e2e0db',
         },
-        'text-mid': 'var(--color-text-mid)',
-        'text-light': 'var(--color-text-light)',
+        'text-mid': '#495057',
+        'text-light': '#6c757d',
       },
       fontFamily: {
         sans: ['var(--font-sans)', 'Open Sans', 'sans-serif'],

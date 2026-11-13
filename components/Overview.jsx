@@ -7,7 +7,7 @@ const Overview = ({ setIsOpen }) => {
   const [isExpanded, setIsExpanded] = useState(false)
 
   return (
-    <section id="overview" className="w-full py-16 md:py-20 lg:py-24 bg-[#0E2430] text-white font-poppins relative overflow-hidden">
+    <section id="overview" className="w-full py-16 md:py-20 lg:py-24 bg-[#000000] text-white font-poppins relative overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6" style={{ maxWidth: '1280px' }}>
         <div className="flex flex-col lg:flex-row items-center lg:items-start lg:mx-[-20px] gap-12 lg:gap-0">
           
@@ -15,10 +15,10 @@ const Overview = ({ setIsOpen }) => {
           <div className="w-full lg:w-1/2 lg:px-[20px] flex justify-center lg:sticky lg:top-28">
             <div className="relative w-full max-w-[520px] pt-3 pl-3">
               {/* Decorative Offset Gold Border (from Screenshot) */}
-              <div className="absolute top-0 left-0 w-full h-full border border-[#8B6A34]/50 rounded-[22px] pointer-events-none" />
+              <div className="absolute top-0 left-0 w-full h-full border border-[#DFBA73]/50 rounded-[22px] pointer-events-none" />
 
               {/* Main Image Container */}
-              <div className="relative w-full h-[360px] sm:h-[430px] md:h-[480px] lg:h-[530px] rounded-[18px] sm:rounded-[20px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] bg-[#081720]">
+              <div className="relative w-full h-[360px] sm:h-[430px] md:h-[480px] lg:h-[530px] rounded-[18px] sm:rounded-[20px] overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.5)] bg-[#111111]">
                 <Image 
                   src={overviewImage} 
                   alt="About Godrej Bandra Bay Residences" 
@@ -28,8 +28,8 @@ const Overview = ({ setIsOpen }) => {
                 />
                 
                 {/* Location Badge on Image (Bottom Left, from Screenshot) */}
-                <div className="absolute bottom-5 left-5 px-3.5 py-1.5 rounded-sm bg-[#0E2430]/90 border border-[#8B6A34]/70 backdrop-blur-md shadow-lg">
-                  <span className="text-[#8B6A34] text-[11px] sm:text-[12px] font-bold tracking-[2.5px] uppercase">
+                <div className="absolute bottom-5 left-5 px-3.5 py-1.5 rounded-sm bg-[#000000]/90 border border-[#DFBA73]/70 backdrop-blur-md shadow-lg">
+                  <span className="text-[#DFBA73] text-[11px] sm:text-[12px] font-bold tracking-[2.5px] uppercase">
                     BANDRA WEST, MUMBAI
                   </span>
                 </div>
@@ -46,18 +46,18 @@ const Overview = ({ setIsOpen }) => {
           <div className="w-full lg:w-1/2 lg:px-[20px] lg:pl-12">
             <div>
               {/* Eyebrow */}
-              <span className="text-[#8B6A34] font-bold text-[12.5px] sm:text-[13.5px] tracking-[3px] uppercase mb-2.5 block">
+              <span className="text-[#DFBA73] font-bold text-[12.5px] sm:text-[13.5px] tracking-[3px] uppercase mb-2.5 block">
                 OVERVIEW
               </span>
 
               {/* Headline (Quiet Luxury, Rooted In Bandra style) */}
               <h2 className="text-white text-[28px] sm:text-[34px] md:text-[40px] font-extrabold leading-[1.2] mb-4 tracking-tight">
                 Quiet Luxury,<br />
-                <span className="text-[#8B6A34]">Rooted In Bandra.</span>
+                <span className="text-[#DFBA73]">Rooted In Bandra.</span>
               </h2>
 
               {/* Gold Divider Line */}
-              <div className="w-12 h-[2.5px] bg-[#8B6A34] mb-6 rounded-full" />
+              <div className="w-12 h-[2.5px] bg-[#DFBA73] mb-6 rounded-full" />
 
               {/* Text Paragraphs with 9-Line Read More Toggle */}
               <div className="mb-6">
@@ -85,7 +85,7 @@ const Overview = ({ setIsOpen }) => {
                 <button
                   type="button"
                   onClick={() => setIsExpanded(!isExpanded)}
-                  className="mt-3.5 text-[#8B6A34] hover:text-white font-bold text-[13.5px] sm:text-[14px] inline-flex items-center gap-1.5 transition-colors cursor-pointer"
+                  className="mt-3.5 text-[#DFBA73] hover:text-white font-bold text-[13.5px] sm:text-[14px] inline-flex items-center gap-1.5 transition-colors cursor-pointer"
                 >
                   <span>{isExpanded ? 'Read Less' : 'Read More'}</span>
                   <i className={`fa-solid fa-chevron-${isExpanded ? 'up' : 'down'} text-[11px]`} />
@@ -97,7 +97,7 @@ const Overview = ({ setIsOpen }) => {
                 <div className="grid grid-cols-3 gap-y-6 gap-x-3 sm:gap-x-4">
                   {/* Item 1 */}
                   <div>
-                    <div className="text-[24px] sm:text-[30px] md:text-[34px] font-black text-[#8B6A34] tracking-tight leading-none">
+                    <div className="text-[24px] sm:text-[30px] md:text-[34px] font-black text-[#DFBA73] tracking-tight leading-none">
                       11.5 Ft
                     </div>
                     <div className="text-[10px] sm:text-[11px] font-bold text-white/90 uppercase tracking-widest mt-1.5">
@@ -110,7 +110,7 @@ const Overview = ({ setIsOpen }) => {
 
                   {/* Item 2 */}
                   <div>
-                    <div className="text-[24px] sm:text-[30px] md:text-[34px] font-black text-[#8B6A34] tracking-tight leading-none">
+                    <div className="text-[24px] sm:text-[30px] md:text-[34px] font-black text-[#DFBA73] tracking-tight leading-none">
                       West-Facing
                     </div>
                     <div className="text-[10px] sm:text-[11px] font-bold text-white/90 uppercase tracking-widest mt-1.5">
@@ -123,7 +123,7 @@ const Overview = ({ setIsOpen }) => {
 
                   {/* Item 3 */}
                   <div>
-                    <div className="text-[24px] sm:text-[30px] md:text-[34px] font-black text-[#8B6A34] tracking-tight leading-none">
+                    <div className="text-[24px] sm:text-[30px] md:text-[34px] font-black text-[#DFBA73] tracking-tight leading-none">
                       Sea &amp; SoBo
                     </div>
                     <div className="text-[10px] sm:text-[11px] font-bold text-white/90 uppercase tracking-widest mt-1.5">
@@ -139,7 +139,7 @@ const Overview = ({ setIsOpen }) => {
 
                   {/* Item 4 */}
                   <div>
-                    <div className="text-[24px] sm:text-[30px] md:text-[34px] font-black text-[#8B6A34] tracking-tight leading-none">
+                    <div className="text-[24px] sm:text-[30px] md:text-[34px] font-black text-[#DFBA73] tracking-tight leading-none">
                       2.75
                     </div>
                     <div className="text-[10px] sm:text-[11px] font-bold text-white/90 uppercase tracking-widest mt-1.5">
@@ -152,7 +152,7 @@ const Overview = ({ setIsOpen }) => {
 
                   {/* Item 5 */}
                   <div>
-                    <div className="text-[24px] sm:text-[30px] md:text-[34px] font-black text-[#8B6A34] tracking-tight leading-none">
+                    <div className="text-[24px] sm:text-[30px] md:text-[34px] font-black text-[#DFBA73] tracking-tight leading-none">
                       1 Tower
                     </div>
                     <div className="text-[10px] sm:text-[11px] font-bold text-white/90 uppercase tracking-widest mt-1.5">
@@ -165,7 +165,7 @@ const Overview = ({ setIsOpen }) => {
 
                   {/* Item 6 */}
                   <div>
-                    <div className="text-[24px] sm:text-[30px] md:text-[34px] font-black text-[#8B6A34] tracking-tight leading-none">
+                    <div className="text-[24px] sm:text-[30px] md:text-[34px] font-black text-[#DFBA73] tracking-tight leading-none">
                       26
                     </div>
                     <div className="text-[10px] sm:text-[11px] font-bold text-white/90 uppercase tracking-widest mt-1.5">
@@ -183,7 +183,7 @@ const Overview = ({ setIsOpen }) => {
                 <button
                   type="button"
                   onClick={() => setIsOpen && setIsOpen(true)}
-                  className="px-8 sm:px-10 py-3.5 sm:py-4 rounded-lg font-black text-[13px] sm:text-[14px] uppercase tracking-[2px] bg-[#8B6A34] text-[#0E2430] hover:bg-[#A68245] hover:text-white transition-all duration-300 shadow-xl hover:shadow-[0_8px_30px_rgba(139,106,52,0.45)] cursor-pointer active:scale-95 inline-flex items-center gap-2"
+                  className="px-8 sm:px-10 py-3.5 sm:py-4 rounded-lg font-black text-[13px] sm:text-[14px] uppercase tracking-[2px] bg-[#DFBA73] text-[#000000] hover:bg-[#f4d87d] hover:text-white transition-all duration-300 shadow-xl hover:shadow-[0_8px_30px_rgba(223,186,115,0.45)] cursor-pointer active:scale-95 inline-flex items-center gap-2"
                 >
                   <i className="fa-solid fa-file-arrow-down text-sm" />
                   <span>REQUEST BROCHURE</span>

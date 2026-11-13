@@ -41,15 +41,15 @@ const VirtualTour = ({ setIsOpen }) => {
         <div style={{
           width: 'clamp(80px, 10vw, 110px)',
           height: 'clamp(80px, 10vw, 110px)',
-          background: '#0E2430',
+          background: '#000000',
           borderRadius: '50%',
           display: 'flex', alignItems: 'center', justifyContent: 'center',
-          border: '4px solid #8B6A34',
+          border: '4px solid #DFBA73',
           boxShadow: '0 0 40px rgba(0,0,0,0.4)',
           transition: 'all 0.4s ease',
         }}
-          onMouseEnter={e => { e.currentTarget.style.borderColor = '#ffffff'; e.currentTarget.style.background = '#8B6A34'; e.currentTarget.querySelector('svg').setAttribute('fill', '#ffffff') }}
-          onMouseLeave={e => { e.currentTarget.style.borderColor = '#8B6A34'; e.currentTarget.style.background = '#0E2430'; e.currentTarget.querySelector('svg').setAttribute('fill', '#ffffff') }}
+          onMouseEnter={e => { e.currentTarget.style.borderColor = '#ffffff'; e.currentTarget.style.background = '#DFBA73'; e.currentTarget.querySelector('svg').setAttribute('fill', '#ffffff') }}
+          onMouseLeave={e => { e.currentTarget.style.borderColor = '#DFBA73'; e.currentTarget.style.background = '#000000'; e.currentTarget.querySelector('svg').setAttribute('fill', '#ffffff') }}
         >
           <svg width="45" height="45" viewBox="0 0 24 24" fill="#ffffff">
             <path d="M8 5v14l11-7z" />

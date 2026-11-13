@@ -166,7 +166,7 @@ const ContactForm = () => {
       {error && <p style={{ color: 'red', fontSize: '12px' }}>{error}</p>}
 
       <label style={{ display: 'flex', alignItems: 'flex-start', gap: '8px', cursor: 'pointer' }}>
-        <input type="checkbox" required defaultChecked style={{ accentColor: '#0E2430', marginTop: '2px', flexShrink: 0 }} />
+        <input type="checkbox" required defaultChecked style={{ accentColor: '#000000', marginTop: '2px', flexShrink: 0 }} />
         <span style={{ fontSize: '12px', color: '#777', fontFamily: F_SANS, lineHeight: 1.5 }}>
           I agree to receive updates as per the <Link href="/privacy-policy" prefetch={false} style={{ color: '#2563eb', textDecoration: 'underline' }}>Privacy Policy</Link>.
         </span>
@@ -190,10 +190,10 @@ const AboutDeveloper = ({ setIsOpen }) => (
 
       {/* Heading */}
       <div className="text-center mb-10" data-aos="fade-up">
-        <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
+        <span className="text-[#DFBA73] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
           DEVELOPER PROFILE
         </span>
-        <h2 className="text-[#0E2430] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+        <h2 className="text-[#000000] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
           Crafted by Godrej Properties
         </h2>
       </div>
@@ -212,12 +212,12 @@ const AboutDeveloper = ({ setIsOpen }) => (
 
           {/* Dark Header */}
           <div style={{
-            background: 'linear-gradient(135deg, #081720, #0E2430)',
+            background: 'linear-gradient(135deg, #111111, #000000)',
             padding: '18px 24px', position: 'relative', overflow: 'hidden',
           }}>
             <div style={{
               position: 'absolute', top: 0, left: 0, right: 0, height: '2px',
-              background: 'linear-gradient(90deg, #8B6A34, #A68245)',
+              background: 'linear-gradient(90deg, #DFBA73, #f4d87d)',
             }} />
             <div style={{ display: 'flex', alignItems: 'center', gap: '14px', position: 'relative' }}>
               <div style={{
@@ -286,12 +286,12 @@ const AboutDeveloper = ({ setIsOpen }) => (
 
           {/* Form Header */}
           <div style={{
-            background: 'linear-gradient(135deg, #081720, #0E2430)',
+            background: 'linear-gradient(135deg, #111111, #000000)',
             padding: '18px 24px', position: 'relative', overflow: 'hidden'
           }}>
             <div style={{
               position: 'absolute', top: 0, left: 0, right: 0, height: '2px',
-              background: 'linear-gradient(90deg, #8B6A34, #A68245)',
+              background: 'linear-gradient(90deg, #DFBA73, #f4d87d)',
             }} />
             <h3 style={{
               fontFamily: F_JOST, fontWeight: '800', fontSize: '18px',

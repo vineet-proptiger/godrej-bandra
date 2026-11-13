@@ -34,10 +34,10 @@ const PaymentPlan = ({ setIsOpen }) => {
       <div className="container mx-auto px-4 sm:px-6" style={{ maxWidth: '1150px' }}>
         {/* Section Title */}
         <div className="text-center max-w-[800px] mx-auto mb-12 sm:mb-14" data-aos="fade-up">
-          <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-3 block">
+          <span className="text-[#DFBA73] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-3 block">
             PAYMENT PLAN
           </span>
-          <h2 className="text-[#0E2430] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+          <h2 className="text-[#000000] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             Flexible Payment Plan
           </h2>
         </div>
@@ -47,7 +47,7 @@ const PaymentPlan = ({ setIsOpen }) => {
           className="bg-white rounded-[24px] sm:rounded-[28px] p-2 sm:p-3"
           style={{
             boxShadow: '0 20px 50px rgba(0, 0, 0, 0.08)',
-            border: '1px solid rgba(139, 106, 52, 0.2)',
+            border: '1px solid rgba(223, 186, 115, 0.2)',
           }}
           data-aos="fade-up"
           onMouseLeave={() => setActiveIdx(null)}
@@ -66,7 +66,7 @@ const PaymentPlan = ({ setIsOpen }) => {
                     isActive ? 'scale-[1.01] sm:scale-100 z-10' : ''
                   }`}
                   style={{
-                    background: isActive ? '#0E2430' : 'transparent',
+                    background: isActive ? '#000000' : 'transparent',
                     boxShadow: isActive ? '0 12px 30px rgba(0, 0, 0, 0.35)' : 'none',
                   }}
                 >
@@ -82,7 +82,7 @@ const PaymentPlan = ({ setIsOpen }) => {
                   <h3
                     className="text-[22px] sm:text-[24px] font-extrabold mb-3.5 tracking-tight transition-colors duration-300"
                     style={{
-                      color: isActive ? '#ffffff' : '#0E2430',
+                      color: isActive ? '#ffffff' : '#000000',
                     }}
                   >
                     {plan.title}

@@ -91,9 +91,9 @@ export default function Home() {
           writingMode: 'vertical-rl',
           textOrientation: 'mixed',
           letterSpacing: '2px',
-          background: '#0E2430',
+          background: '#000000',
           color: '#ffffff',
-          border: '2px solid #8B6A34',
+          border: '2px solid #000000',
           borderRight: 'none',
         }}
       >
@@ -106,7 +106,7 @@ export default function Home() {
           id="mobile-call"
           href={`tel:${PHONE_NUMBER}`}
           className="flex-1 flex flex-col items-center justify-center py-2 px-1"
-          style={{ background: '#0E2430', borderRight: '1px solid rgba(255,255,255,0.15)' }}
+          style={{ background: '#000000', borderRight: '1px solid rgba(255,255,255,0.15)' }}
         >
           <div className="phone-icon-wrap flex items-center justify-center">
             <svg width="20" height="20" fill="#ffffff" viewBox="0 0 24 24">
@@ -120,15 +120,15 @@ export default function Home() {
           onMouseEnter={prefetchModal}
           onTouchStart={prefetchModal}
           className="flex-1 flex flex-col items-center justify-center py-2 px-1"
-          style={{ background: '#8B6A34', borderRight: '1px solid rgba(255,255,255,0.15)' }}
+          style={{ background: 'linear-gradient(90deg, #d7b440, #f4d87d)', borderRight: '1px solid rgba(255,255,255,0.15)' }}
         >
           <div className="enquire-icon-wrap flex items-center justify-center">
-            <svg width="22" height="22" fill="none" stroke="#ffffff" strokeWidth="2.5" viewBox="0 0 24 24">
+            <svg width="22" height="22" fill="none" stroke="#000000" strokeWidth="2.5" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round"
                 d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
             </svg>
           </div>
-          <span className="text-[11px] sm:text-[12px] font-extrabold text-white mt-1 leading-none">ENQUIRE</span>
+          <span className="text-[11px] sm:text-[12px] font-extrabold text-black mt-1 leading-none">ENQUIRE</span>
         </button>
         <a
           href={`https://wa.me/${WHATSAPP_NUMBER.replace(/\D/g, '')}?text=${encodeURIComponent(`Hi, I am interested in ${PROJECT_NAME}.`)}`}

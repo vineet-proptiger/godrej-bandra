@@ -53,10 +53,10 @@ const Location = () => {
         
         {/* Section Title */}
         <div className="text-center max-w-[850px] mx-auto mb-8 md:mb-10" data-aos="fade-up">
-          <span className="text-[#8B6A34] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
+          <span className="text-[#DFBA73] font-bold text-[13px] sm:text-[14px] tracking-[2.5px] uppercase mb-2.5 block">
             LOCATION ADVANTAGES
           </span>
-          <h2 className="text-[#0E2430] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
+          <h2 className="text-[#000000] text-[22px] sm:text-[26px] md:text-[30px] font-extrabold m-0 leading-tight">
             A Location That Keeps You Connected
           </h2>
         </div>
@@ -71,15 +71,15 @@ const Location = () => {
                 key={index}
                 data-aos="fade-right"
                 data-aos-delay={(index * 40).toString()}
-                className="group bg-white hover:bg-[#F9F8F3] border border-[#EAE6DF] hover:border-[#8B6A34]/60 rounded-[12px] px-3.5 sm:px-4 py-2 sm:py-2.5 flex items-center justify-between shadow-[0_2px_8px_rgba(0,0,0,0.03)] hover:shadow-[0_4px_16px_rgba(0,0,0,0.12)] transition-all duration-200"
+                className="group bg-white hover:bg-[#fafafa] border border-[#e5e7eb] hover:border-[#DFBA73]/60 rounded-[12px] px-3.5 sm:px-4 py-2 sm:py-2.5 flex items-center justify-between shadow-[0_2px_8px_rgba(0,0,0,0.03)] hover:shadow-[0_4px_16px_rgba(0,0,0,0.12)] transition-all duration-200"
               >
                 {/* Left side: Icon & Title + Context */}
                 <div className="flex items-center gap-2.5 sm:gap-3 min-w-0 pr-2">
-                  <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#F4EFE6] group-hover:bg-[#0E2430] text-[#0E2430] group-hover:text-[#8B6A34] flex items-center justify-center text-[13px] sm:text-[14px] shrink-0 transition-colors duration-200">
-                    <i className={`${item.icon} text-[#0E2430] group-hover:text-[#8B6A34]`}></i>
+                  <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#f3f4f6] group-hover:bg-[#000000] text-[#000000] group-hover:text-[#DFBA73] flex items-center justify-center text-[13px] sm:text-[14px] shrink-0 transition-colors duration-200">
+                    <i className={`${item.icon} text-[#000000] group-hover:text-[#DFBA73]`}></i>
                   </div>
                   <div className="min-w-0 flex flex-col">
-                    <span className="text-[#1f2937] group-hover:text-[#0E2430] font-bold text-[13px] sm:text-[14px] transition-colors duration-200 leading-snug truncate">
+                    <span className="text-[#1f2937] group-hover:text-[#000000] font-bold text-[13px] sm:text-[14px] transition-colors duration-200 leading-snug truncate">
                       {item.title}
                     </span>
                     <span className="text-gray-500 text-[11px] sm:text-[11.5px] transition-colors duration-200 leading-tight truncate">
@@ -89,7 +89,7 @@ const Location = () => {
                 </div>
 
                 {/* Right side: Time Badge */}
-                <span className="bg-[#F4EFE6] group-hover:bg-[#0E2430] text-[#0E2430] group-hover:text-white font-bold text-[11px] sm:text-[12px] px-2.5 sm:px-3 py-1 rounded-full whitespace-nowrap transition-colors duration-200 shrink-0 shadow-xs">
+                <span className="bg-[#f3f4f6] group-hover:bg-[#000000] text-[#000000] group-hover:text-white font-bold text-[11px] sm:text-[12px] px-2.5 sm:px-3 py-1 rounded-full whitespace-nowrap transition-colors duration-200 shrink-0 shadow-xs">
                   {item.time}
                 </span>
               </div>
@@ -99,7 +99,7 @@ const Location = () => {
           {/* Right: Google Maps Embed (Exact Equal Height) */}
           <div 
             data-aos="fade-left"
-            className="w-full h-full min-h-[350px] lg:min-h-full rounded-[20px] overflow-hidden border border-[#EAE6DF] shadow-[0_4px_25px_rgba(0,0,0,0.06)] bg-gray-100 flex"
+            className="w-full h-full min-h-[350px] lg:min-h-full rounded-[20px] overflow-hidden border border-[#e5e7eb] shadow-[0_4px_25px_rgba(0,0,0,0.06)] bg-gray-100 flex"
           >
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15084.84212221855!2d72.8296543!3d19.054479049999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8e123f8d27b%3A0x437996b49a236a78!2sBandra%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1793368289533!5m2!1sen!2sin"
